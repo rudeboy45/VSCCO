@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jYg-JQ-yCK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Editor View Controller-->
+        <scene sceneID="gnM-Nb-O3L">
+            <objects>
+                <viewController storyboardIdentifier="Editor" id="jYg-JQ-yCK" customClass="EditorViewController" customModule="VSCCO" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mua-cn-d3S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qSp-Hz-4Rr">
+                                <rect key="frame" x="20" y="74" width="374" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="en8-Lk-5eH"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LO6-SG-DYl">
+                                <rect key="frame" x="10" y="730" width="394" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihP-Yu-QdV">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                        <state key="normal" title="PE2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action1:" destination="jYg-JQ-yCK" eventType="touchUpInside" id="QOG-Tq-2Pj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1a-R2-g1m">
+                                        <rect key="frame" x="80" y="0.0" width="74.5" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                        <state key="normal" title="DH8">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action2:" destination="jYg-JQ-yCK" eventType="touchUpInside" id="cnD-ly-a5L"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDw-Su-FgT">
+                                        <rect key="frame" x="159.5" y="0.0" width="75" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                        <state key="normal" title="DH7">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action3:" destination="jYg-JQ-yCK" eventType="touchUpInside" id="deK-wR-D3f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwH-EH-Ogi">
+                                        <rect key="frame" x="239.5" y="0.0" width="74.5" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                        <state key="normal" title="NE9">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action4:" destination="jYg-JQ-yCK" eventType="touchUpInside" id="sLh-M9-OU2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gX-00-9WR">
+                                        <rect key="frame" x="319" y="0.0" width="75" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                        <state key="normal" title="KE2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action5:" destination="jYg-JQ-yCK" eventType="touchUpInside" id="0ie-Km-VKH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5B4-fE-msh"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjl-pO-dQq">
+                                <rect key="frame" x="20" y="74" width="374" height="350"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="Jtr-PO-BPA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P4U-4B-VRr"/>
+                        <color key="backgroundColor" red="0.25095507500000003" green="0.25099658969999999" blue="0.25094601509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qSp-Hz-4Rr" firstAttribute="top" secondItem="P4U-4B-VRr" secondAttribute="top" constant="30" id="4On-Tf-h2h"/>
+                            <constraint firstItem="LO6-SG-DYl" firstAttribute="leading" secondItem="P4U-4B-VRr" secondAttribute="leading" constant="10" id="5gE-8l-tK6"/>
+                            <constraint firstItem="P4U-4B-VRr" firstAttribute="trailing" secondItem="xjl-pO-dQq" secondAttribute="trailing" constant="20" id="KrS-4s-Wbo"/>
+                            <constraint firstItem="P4U-4B-VRr" firstAttribute="trailing" secondItem="LO6-SG-DYl" secondAttribute="trailing" constant="10" id="W8q-AY-K9A"/>
+                            <constraint firstItem="xjl-pO-dQq" firstAttribute="top" secondItem="P4U-4B-VRr" secondAttribute="top" constant="30" id="YKp-QM-N20"/>
+                            <constraint firstItem="P4U-4B-VRr" firstAttribute="trailing" secondItem="qSp-Hz-4Rr" secondAttribute="trailing" constant="20" id="fCh-A2-v5O"/>
+                            <constraint firstItem="P4U-4B-VRr" firstAttribute="bottom" secondItem="LO6-SG-DYl" secondAttribute="bottom" constant="32" id="goE-bj-2cl"/>
+                            <constraint firstItem="xjl-pO-dQq" firstAttribute="leading" secondItem="P4U-4B-VRr" secondAttribute="leading" constant="20" id="qE1-7A-pUL"/>
+                            <constraint firstItem="qSp-Hz-4Rr" firstAttribute="leading" secondItem="P4U-4B-VRr" secondAttribute="leading" constant="20" id="rsV-sp-pGN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="filterView" destination="xjl-pO-dQq" id="PUb-BW-8gP"/>
+                        <outlet property="imageView" destination="qSp-Hz-4Rr" id="mbG-sb-o1F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWu-wH-QGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223.18840579710147" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
