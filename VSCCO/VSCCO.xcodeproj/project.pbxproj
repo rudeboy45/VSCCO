@@ -45,6 +45,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C87DC71269C76A4008B0F93 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6CD5150E262203A100C56C95 /* AppDelegate.swift */,
+				6CD51510262203A100C56C95 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6C87DC72269C774F008B0F93 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CD51517262203A300C56C95 /* Assets.xcassets */,
+				6CD51519262203A300C56C95 /* LaunchScreen.storyboard */,
+				6CD5151C262203A300C56C95 /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6C87DC73269C77C2008B0F93 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				6CD51512262203A100C56C95 /* ViewController.swift */,
+				6CD51514262203A100C56C95 /* Main.storyboard */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		6C87DC74269C783C008B0F93 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6C87DC75269C7844008B0F93 /* Services */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6C87DC75269C7844008B0F93 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6CD515232622042900C56C95 /* ImagePicker.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		6CD51502262203A100C56C95 = {
 			isa = PBXGroup;
 			children = (
@@ -64,15 +108,11 @@
 		6CD5150D262203A100C56C95 /* VSCCO */ = {
 			isa = PBXGroup;
 			children = (
+				6C87DC74269C783C008B0F93 /* API */,
+				6C87DC71269C76A4008B0F93 /* Application */,
 				6CD5152626220C3700C56C95 /* Editor */,
-				6CD5150E262203A100C56C95 /* AppDelegate.swift */,
-				6CD51510262203A100C56C95 /* SceneDelegate.swift */,
-				6CD51512262203A100C56C95 /* ViewController.swift */,
-				6CD51514262203A100C56C95 /* Main.storyboard */,
-				6CD51517262203A300C56C95 /* Assets.xcassets */,
-				6CD51519262203A300C56C95 /* LaunchScreen.storyboard */,
-				6CD5151C262203A300C56C95 /* Info.plist */,
-				6CD515232622042900C56C95 /* ImagePicker.swift */,
+				6C87DC73269C77C2008B0F93 /* auth */,
+				6C87DC72269C774F008B0F93 /* resources */,
 				6CD5150C262203A100C56C95 /* Products */,
 				6CF748FC26221776006F07F9 /* UIColor+Extra.swift */,
 			);
